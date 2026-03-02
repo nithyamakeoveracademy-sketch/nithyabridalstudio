@@ -1,0 +1,17 @@
+{
+  "error": null,
+  "data": [
+    {
+      "id": "d9ec6930-93f0-45e7-851e-d4c51e34b0d8",
+      "title": "Silver Package",
+      "price": "₹15,000",
+      "desc": "Engagement | Off saree function | Baby Shower",
+      "features": "[\"Makeup\",\"Hairstyles\",\"Saree draping\",\"Saree folding\",\"Jewellery\",\"Flower\",\"Lens\",\"Eye lash\",\"Hair extensions\"]",
+      "img": "https://lglwzyjolfocqlwdubfc.supabase.co/storage/v1/object/public/images/uploads/image_1771915565496.webp",
+      "created_at": "2026-02-24T06:46:09.906752+00:00"
+    }
+  ],
+  "count": null,
+  "status": 200,
+  "statusText": "OK"
+}
