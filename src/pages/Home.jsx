@@ -217,8 +217,8 @@ const Home = () => {
             <section className="py-20 lg:py-28 bg-[#050505] px-4 sm:px-6 border-t border-luxury-gold/10">
                 <div className="container mx-auto max-w-6xl">
                     <FadeIn direction="up">
-                        <div className="flex flex-col md:flex-row justify-between items-end mb-12 sm:mb-16">
-                            <div>
+                        <div className="flex flex-col md:flex-row justify-between items-center md:items-end mb-12 sm:mb-16">
+                            <div className="text-center md:text-left w-full md:w-auto">
                                 <span className="text-luxury-gold text-xs sm:text-sm tracking-[0.2em] sm:tracking-[0.3em] uppercase mb-3 block">What We Offer</span>
                                 <h2 className="text-4xl sm:text-5xl font-serif text-luxury-nude">Signature <span className="text-luxury-gold italic">Services</span></h2>
                             </div>
@@ -243,9 +243,9 @@ const Home = () => {
                                 price: "₹10,000"
                             },
                             {
-                                title: "Party & Reception Makeup",
+                                title: "Party Makeup",
                                 img: partlookImg,
-                                desc: "Stand out at any event with our signature party glam. Book the best makeup artist for functions and receptions in Salem.",
+                                desc: "Stand out at any event with our signature party glam. Book the best makeup artist for functions and events in Salem.",
                                 price: "₹5,000"
                             }
                         ].map((service, idx) => (
@@ -253,8 +253,8 @@ const Home = () => {
                                 <div className="group relative overflow-hidden bg-[#080808] border border-luxury-gold/15 rounded-[20px] transition-all duration-500 hover:border-luxury-gold/40 shadow-xl flex flex-col md:block md:h-[380px] lg:h-[420px]">
 
                                     {/* Image (Top on mobile, Background on desktop) */}
-                                    <div className="w-full aspect-video md:aspect-auto md:absolute md:inset-0 md:h-full overflow-hidden">
-                                        <img src={service.img} alt={service.title} className="w-full h-full object-cover transition-transform duration-[1.5s] md:group-hover:scale-105" />
+                                    <div className="w-full h-[240px] sm:h-[280px] md:h-full md:aspect-auto md:absolute md:inset-0 overflow-hidden">
+                                        <img src={service.img} alt={service.title} className="w-full h-full object-cover object-[center_15%] md:object-center transition-transform duration-[1.5s] md:group-hover:scale-105" />
                                         <div className="hidden md:block absolute inset-0 bg-gradient-to-t from-luxury-black via-luxury-black/50 to-transparent"></div>
                                     </div>
 
