@@ -22,7 +22,7 @@ import before3 from '../assets/before3.webp';
 import after3 from '../assets/after3.webp';
 import before4 from '../assets/before4.webp';
 import after4 from '../assets/after4.webp';
-import academyImg from '../assets/academy.webp';
+import academyImg from '../assets/Academy.webp';
 
 const heroImages = [hero1, hero2, hero3, hero4];
 
