@@ -71,10 +71,11 @@ const Footer = () => {
 
             <div className="container mx-auto px-6 lg:px-12 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] md:text-xs text-luxury-nude/50 font-light tracking-wide">
                 <p>&copy; {new Date().getFullYear()} Nithya Bridal Studio. All rights reserved.</p>
-                <p>Designed by <a href="https://crevasolution.com" target="_blank" rel="noopener noreferrer" className="hover:text-luxury-gold transition-colors">CrevaSolution</a></p>
+                <p>Designed by <a href="https://crevasolution.in" target="_blank" rel="noopener noreferrer" className="hover:text-luxury-gold transition-colors">CrevaSolutions</a></p>
             </div>
         </footer>
     );
 };
 
 export default Footer;
+
