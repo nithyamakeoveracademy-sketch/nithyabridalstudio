@@ -338,7 +338,7 @@ const Home = () => {
 
                                 <div className="flex flex-wrap items-center gap-2 md:gap-3 lg:gap-4 mb-4 md:mb-5 lg:mb-6 lg:mt-0">
                                     <span className="bg-luxury-gold/10 border border-luxury-gold/20 px-2 md:px-3 py-1 md:py-1.5 rounded text-luxury-gold text-[9px] md:text-[10px] sm:text-xs tracking-wider uppercase font-medium">Beauty Institute</span>
-                                    <span className="text-luxury-nude/70 text-[10px] md:text-xs sm:text-sm font-light">Duration: 4 Weeks</span>
+                                    <span className="text-luxury-nude/70 text-[10px] md:text-xs sm:text-sm font-light">Duration: 40 Days / 70 Days</span>
                                     <span className="text-luxury-gold/30 text-[10px] md:text-sm block">•</span>
                                     <span className="text-luxury-nude/70 text-[10px] md:text-xs sm:text-sm font-light">Premium Certification</span>
                                 </div>
@@ -678,3 +678,4 @@ const Home = () => {
 };
 
 export default Home;
+
